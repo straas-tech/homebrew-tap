@@ -12,24 +12,24 @@ class Straas < Formula
   on_macos do
     on_arm do
       url "https://github.com/straas-tech/install/releases/download/v0.7.5/straas_darwin_arm64.tar.gz"
-      sha256 "4d048d591de4dd690dab0770e4de60c57b80fb4db4e2ca162a23b4c69e9f8ece"
+      sha256 "ff378f6f53f95f95761f1ccb297c0d28ff39b46b7fd07f98a1600cb3dd274612"
     end
 
     on_intel do
       url "https://github.com/straas-tech/install/releases/download/v0.7.5/straas_darwin_amd64.tar.gz"
-      sha256 "05451b042c26c9ab8fddf253023c14f2cb897512631ebccf79a03dc659cbbfcc"
+      sha256 "f67bd1624ff85f1f3b44fecc4b4f67032c07bc5397975e4f01a23e8875b0bd49"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/straas-tech/install/releases/download/v0.7.5/straas_linux_arm64.tar.gz"
-      sha256 "1fb335a5f02b622805bd16ef6d110b5106571e3c9a6380fe184151573cfbcde0"
+      sha256 "d94363cecf2d690b46801d8d527fd1488b21ea2407414d144b248b7d2376c4cc"
     end
 
     on_intel do
       url "https://github.com/straas-tech/install/releases/download/v0.7.5/straas_linux_amd64.tar.gz"
-      sha256 "1c42c5329a50f62376dd367bcb0406f383c9b051efa5d727053157468166656f"
+      sha256 "98d6ff7b048aa34ade860c724281312d44aaf2c4a218dded9b8001e156f27342"
     end
   end
 
