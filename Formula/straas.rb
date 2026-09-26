@@ -6,30 +6,30 @@
 class Straas < Formula
   desc "Squad-driven workspace CLI for Claude-based development environments"
   homepage "https://github.com/straas-tech/homebrew-tap"
-  version "0.10.0"
+  version "0.11.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/straas-tech/install/releases/download/v0.10.0/straas_darwin_arm64.tar.gz"
-      sha256 "90b4afa8ad697792c04cb6ad098e79a48e6a5a8ff2f03dac99cc77b7774cfcb6"
+      url "https://github.com/straas-tech/install/releases/download/v0.11.0/straas_darwin_arm64.tar.gz"
+      sha256 "91b21a5ca1fe83da1ca23da0cc2bc1386cfa66baa500931b239eea4b30ae1f39"
     end
 
     on_intel do
-      url "https://github.com/straas-tech/install/releases/download/v0.10.0/straas_darwin_amd64.tar.gz"
-      sha256 "3f1cde3a423f48afa0138d3e40204b95128eea4b1e6458d33390218e76da389c"
+      url "https://github.com/straas-tech/install/releases/download/v0.11.0/straas_darwin_amd64.tar.gz"
+      sha256 "4cdee5956c27783843ea4fc8f71d78aedaee163d2249c440a4a73666a810e899"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/straas-tech/install/releases/download/v0.10.0/straas_linux_arm64.tar.gz"
-      sha256 "5bf2e537dbac79cd16cc18cdce008f3768597e93e847cc71625fb00242edbb80"
+      url "https://github.com/straas-tech/install/releases/download/v0.11.0/straas_linux_arm64.tar.gz"
+      sha256 "6fb2cb28e4fca286448523802249e035c955436328220bb64d5deb545397a901"
     end
 
     on_intel do
-      url "https://github.com/straas-tech/install/releases/download/v0.10.0/straas_linux_amd64.tar.gz"
-      sha256 "d965ed8fbc29021ca99a57592f7da24b0e79122eb8a4d1760e4dd9e4e88d9d35"
+      url "https://github.com/straas-tech/install/releases/download/v0.11.0/straas_linux_amd64.tar.gz"
+      sha256 "c45b53805e023033a5d3b21c6cd967a89a93b6d0076ab1f75fca26a75403a005"
     end
   end
 
